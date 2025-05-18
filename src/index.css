@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgba(24, 23, 23, 0.979);
+  color: #00ff73;
+  text-align: center;
+  min-height: 100vh;
+  font-family: "press start 2p";
+  /* border: 2px solid   red;  */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  /* box-shadow: 4px 4px 8px 0 #0000004b, 0 6px 20px 0 #030303c4; */
+
+  /* border: 2px solid  burlywood; */
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 20px;
+  margin: 20px;
+  max-width: 60%;
+
+  box-shadow: 4px 4px 8px 0 #0000004b, 0 6px 20px 0 #030303c4;
+
+  /* border: 2px solid   rgb(218, 218, 218); */
+}
+
+ul:hover{  box-shadow: 0 0 8px 0 #00ff557c, 0 0px 8px 0 #00ff5517;
+  
+}
+li > button {
+  padding: 20px;
+  font-size: 30px;
+  margin: 20px;
+  display: block;
+  /* border: 2px solid red; */
+}
+
+form > button {
+  margin: 140px;
+  margin-top: 200px;
+  padding: 10px 40px;
+  border: none;
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: black;
+  font-family: "press start 2p";
+  font-size: 1.8rem;
+  background-color: #00ff73;
+  font-style: italic;
+
+  box-shadow: 4px 4px 8px 0 #0000004b, 0 6px 20px 0 #030303c4;
+
+  /* border: 2px solid   rgb(255, 0, 212);  */
+}
+.play-btn{
+  background-color: #00ff73;
+  color: black;
+  border: none;
+  font-weight: bold;
+  font-family: 'pree start 2p';
+  padding: 5px 50px;
+}
+form > button:hover {
+  box-shadow: 4px 4px 4px 4px #00ff55, 4px 6px 20px 4px #00ff55;
+  font-size: 1.88rem;
+  
+}
+
+li > button {
+  background-color: #37fc8fc4;
+  border: none;
+  width: 70px;
+  border-radius: 5px;
+  border: 2px outset #00ff55;
+
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 15px;
+  text-decoration: none;
+  margin-left: 100px;
+  /* text-decoration: underline 2px dashed; */
+  /* border: 2px solid   red; */
+}
+
+li > button:hover {
+  border: 1px solid rgb(54, 255, 47);
+  box-shadow: 4px 4px 8px 0 #00ff73c4, 0 6px 20px 0 #00ff73c4;
+}
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.479);
+  box-shadow: 4px 4px 0px 0 #00000027, 0 6px 20px 0 #030303bd;
+  
+}
+a {
+  color: #00ff73;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info > link {
+  margin: 10px;
+  
+  /* border: 2px solid red; */
+}
+.icon {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  text-align: center;
+  /* border: 2px solid red; */
+  margin-left: 70px;
+
+
+   
+ 
+}
+
+.box{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

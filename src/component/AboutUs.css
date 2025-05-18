@@ -1,0 +1,54 @@
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: "press start 2p";
+    line-height: 1.6;
+  }
+  
+  .about h1 {
+    text-align: center;
+    color: #00ff55;
+    margin-bottom: 2rem;
+  }
+  
+  .about-content {
+    background: rgba(0, 0, 0, 0.884);
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .about-content p {
+    margin-bottom: 1.5rem;
+    color: #00ff5570;
+  }
+  
+  .team {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .member {
+    flex: 1;
+    background:#00ff55;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .member h3 {
+    color: black;
+    margin-bottom: 0.5rem;
+  }
+  
+  .member p {
+    color: black;
+    font-size: 0.9rem;
+  }
+  
+  @media (max-width: 600px) {
+    .team {
+      flex-direction: column;
+    }
+  }
